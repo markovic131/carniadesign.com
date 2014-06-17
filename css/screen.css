@@ -3661,12 +3661,17 @@ input[type="button"].btn-block {
   }
 }
 body {
-  padding-top: 60px;
+  padding-top: 70px;
   border-top: 20px solid #555555;
 }
 
-section[role=content] #hero {
-  padding-bottom: 30px;
+section[role=content] section#hero h1 {
+  margin: 0;
+  font-size: 160px;
+}
+section[role=content] section#hero p {
+  margin-top: 50px;
+  margin-bottom: 70px;
 }
 
 footer {
