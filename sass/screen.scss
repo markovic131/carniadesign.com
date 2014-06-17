@@ -8,33 +8,96 @@
 @import "bootstrap";
 
 body {
+
+    position: relative;
     padding-top: 70px;
-    border-top: 20px solid $gray;
-}
-section[role=content] {
+    border-top: 20px solid $brand-primary;
 
-    section#hero {
-        h1 {
-            margin: 0;
-            font-size: 160px;
+    #languageSelector {
+
+        position: absolute;
+        text-align: right;
+        top: -5px;
+        right: 0;
+        padding: 3px 10px;
+        background-color: $brand-primary;
+        @include border-radius($border-radius-base);
+
+        a {
+            font-size: $font-size-small;
+            color: #fff;
+            display: inline-block;
+            margin-right: 10px;
+
+            &:hover {
+                //text-decoration: none;
+            }
+            &:last-child {
+                margin-right: 0;
+            }
         }
-        p {
-            margin-top: 50px;
-            margin-bottom: 70px;
+    }
+
+    section[role=content] {
+
+        section#hero {
+            h1 {
+                margin: 0;
+                font-size: 160px;
+            }
+            p {
+                margin-top: 50px;
+                margin-bottom: 70px;
+            }
+
+        }
+        section#services {
+
+        }
+        section#contact {
+
+            address {
+                strong {
+                    font-size: 18px;
+                }
+                a {
+                    //font-weight: bold;
+                }
+            }
+
+            #social {
+
+                padding-top: 15px;
+
+                a {
+                    display: inline-block;
+                    margin-right: 5px;
+                    &:last-child {
+                        margin-right: 0;
+                    }
+                }
+            }
         }
 
     }
-    section#services {
 
+    footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
+        text-transform: uppercase;
+        color: $gray-light;
     }
-    section#contact {
+}
 
+@import "cdi/*.png";
+.cdi {
+    display: inline-block;
+    height: 48px;
+    width: 48px;
+
+    margin-right: 5px;
+    &:last-child {
+        margin-right: 0;
     }
-
 }
-footer {
-    padding-top: 60px;
-    padding-bottom: 60px;
-    text-transform: uppercase;
-    color: $gray-light;
-}
+@include all-cdi-sprites;

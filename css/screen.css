@@ -3661,22 +3661,102 @@ input[type="button"].btn-block {
   }
 }
 body {
+  position: relative;
   padding-top: 70px;
-  border-top: 20px solid #555555;
+  border-top: 20px solid #428bca;
 }
-
-section[role=content] section#hero h1 {
+body #languageSelector {
+  position: absolute;
+  text-align: right;
+  top: -5px;
+  right: 0;
+  padding: 3px 10px;
+  background-color: #428bca;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  border-radius: 4px;
+}
+body #languageSelector a {
+  font-size: 14px;
+  color: #fff;
+  display: inline-block;
+  margin-right: 10px;
+}
+body #languageSelector a:last-child {
+  margin-right: 0;
+}
+body section[role=content] section#hero h1 {
   margin: 0;
   font-size: 160px;
 }
-section[role=content] section#hero p {
+body section[role=content] section#hero p {
   margin-top: 50px;
   margin-bottom: 70px;
 }
-
-footer {
+body section[role=content] section#contact address strong {
+  font-size: 18px;
+}
+body section[role=content] section#contact #social {
+  padding-top: 15px;
+}
+body section[role=content] section#contact #social a {
+  display: inline-block;
+  margin-right: 5px;
+}
+body section[role=content] section#contact #social a:last-child {
+  margin-right: 0;
+}
+body footer {
   padding-top: 60px;
   padding-bottom: 60px;
   text-transform: uppercase;
   color: #999999;
+}
+
+.cdi-sprite, .cdi-email, .cdi-facebook, .cdi-github, .cdi-googleplus, .cdi-linkedin, .cdi-sharethis, .cdi-skype, .cdi-twitter {
+  background: url('../img/cdi-s7e0d2b66a7.png') no-repeat;
+}
+
+.cdi {
+  display: inline-block;
+  height: 48px;
+  width: 48px;
+  margin-right: 5px;
+}
+.cdi:last-child {
+  margin-right: 0;
+}
+
+.cdi-email {
+  background-position: 0 -48px;
+}
+
+.cdi-facebook {
+  background-position: 0 -336px;
+}
+
+.cdi-github {
+  background-position: 0 -144px;
+}
+
+.cdi-googleplus {
+  background-position: 0 -96px;
+}
+
+.cdi-linkedin {
+  background-position: 0 -288px;
+}
+
+.cdi-sharethis {
+  background-position: 0 -192px;
+}
+
+.cdi-skype {
+  background-position: 0 0;
+}
+
+.cdi-twitter {
+  background-position: 0 -240px;
 }

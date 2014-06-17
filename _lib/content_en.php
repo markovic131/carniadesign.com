@@ -13,7 +13,7 @@
     <div class="row">
         <div class="col-md-6">
             <section id="services">
-                <h2>Services <small>what we do</small></h2>
+                <h1>Services <small>what we do</small></h1>
                 <p>
                     <strong>Branding</strong>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, inventore.
@@ -38,7 +38,11 @@
         </div>
         <div class="col-md-6">
             <section id="contact">
-                <h2>Contact <small>get in touch</small></h2>
+                <h1>Contact <small>get in touch</small></h1>
+                <p>
+                    We happy to answer your questions or prepare you a quotation. Feel free to drop us an email anytime,
+                    and we will respond promptly.
+                </p>
                 <p>
                     <address>
                         <strong>Carnia Design</strong><br>
@@ -47,6 +51,17 @@
                         <?php echo mungemail('info@carniadesign.com'); ?><br>
                         +389 70 799 701
                     </address>
+                </p>
+                <p id="social">
+                    <a href="#">
+                        <span class="cdi cdi-facebook"></span>
+                    </a>
+                    <a href="#">
+                        <span class="cdi cdi-twitter"></span>
+                    </a>
+                    <a href="#">
+                        <span class="cdi cdi-linkedin"></span>
+                    </a>
                 </p>
             </section>
         </div>
