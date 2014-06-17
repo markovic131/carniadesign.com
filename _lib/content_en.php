@@ -4,7 +4,8 @@
             <section id="hero">
                 <h1>Carnia Design</h1>
                 <p class="lead">
-                    We create unique user experiences.<br>Our specialities are identity design, web site design and developement and web apps!
+                    We create amazing user <span>experiences</span>!<br>
+                    We specialize in increasing <span>business value</span> through use of <span>innovative</span> branding,<br>design, development and social media integration.
                 </p>
             </section>
         </div>
@@ -58,15 +59,15 @@
                 </p>
                 <p>
                     <strong>Web Apps</strong> &middot;
-                    We belive quality web applications &amp; enterprise software can make the company take the competitive edge.
+                    We believe quality web applications &amp; enterprise software can make the company take the competitive edge.
                 </p>
                 <p>
                     <strong>Social Media</strong> &middot;
-                    Social media is in the fabric of our lives. It's more than just "liking"; It represents endless business opprotunities.
+                    Social media is in the fabric of our lives. It's more than just "liking"; It represents endless business opportunities.
                 </p>
                 <p>
                     <strong>Infrastructure &amp; Support Services</strong> &middot;
-                    We are partners from the beginning to the end! We offer infrastructure, support &amp; growth managnment.
+                    We are partners from the beginning to the end! We offer infrastructure, support &amp; growth management.
                 </p>
             </section>
         </div>

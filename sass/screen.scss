@@ -14,7 +14,6 @@ body {
     //border-top: 20px solid $brand-primary;
 
     #languageSelector {
-
         position: absolute;
         text-align: right;
         top: 5px;
@@ -45,10 +44,14 @@ body {
             h1 {
                 margin: 0;
                 font-size: 160px;
+                @include text-shadow(0 2px 8px $gray);
             }
             p {
                 margin-top: 50px;
                 margin-bottom: 70px;
+                span {
+                    font-weight: 400;
+                }
             }
             @media (max-width: $screen-sm-max) {
                 h1 {
@@ -56,9 +59,14 @@ body {
                 }
             }
         }
+        section#process {
+
+        }
+
         section#services {
 
         }
+
         section#contact {
 
             address {
@@ -82,9 +90,6 @@ body {
         color: $gray-light;
 
         section#social {
-
-            margin-bottom: 60px;
-
             a {
                 color: $gray;
                 text-transform: uppercase;
@@ -102,6 +107,16 @@ body {
                 }
             }
 
+        }
+
+        section#logo {
+
+            margin: 35px 0;
+
+            img {
+                display: block;
+                margin: 0 auto;
+            }
         }
 
         section#copyright {
