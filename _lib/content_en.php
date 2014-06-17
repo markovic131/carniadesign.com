@@ -5,7 +5,7 @@
                 <h1>Carnia Design</h1>
                 <p class="lead">
                     We create amazing user <span>experiences</span>!<br>
-                    We specialize in increasing <span>business value</span> through use of <span>innovative</span> branding,<br>design, development and social media integration.
+                    We specialize in increasing <span>business value</span> through use of <span>innovative</span> branding,<br>web design, web development and social media integration.
                 </p>
             </section>
         </div>
