@@ -49,24 +49,24 @@
             <section id="services">
                 <h1>Our Services</h1>
                 <p>
-                    <strong>Branding</strong>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, inventore.
+                    <strong>Branding</strong> &middot;
+                    Branding is the heart representation of a company visually. We encompass core company values into the new identity.
                 </p>
                 <p>
-                    <strong>Web Design &amp; Development</strong>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, inventore.
+                    <strong>Web Design &amp; Development</strong> &middot;
+                    We make more than just static pages, we design &amp; develop amazing experiences.
                 </p>
                 <p>
-                    <strong>Web Apps</strong>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, inventore.
+                    <strong>Web Apps</strong> &middot;
+                    We belive quality web applications &amp; enterprise software can make the company take the competitive edge.
                 </p>
                 <p>
-                    <strong>Social Media</strong>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, inventore.
+                    <strong>Social Media</strong> &middot;
+                    Social media is in the fabric of our lives. It's more than just "liking"; It represents endless business opprotunities.
                 </p>
                 <p>
-                    <strong>Infrastructure &amp; Support Services</strong>
-                    Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, inventore.
+                    <strong>Infrastructure &amp; Support Services</strong> &middot;
+                    We are partners from the beginning to the end! We offer infrastructure, support &amp; growth managnment.
                 </p>
             </section>
         </div>

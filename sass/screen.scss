@@ -110,15 +110,15 @@ body {
     }
 }
 
-@import "cdi/*.png";
-.cdi {
-    display: inline-block;
-    height: 48px;
-    width: 48px;
+// @import "cdi/*.png";
+// .cdi {
+//     display: inline-block;
+//     height: 48px;
+//     width: 48px;
 
-    margin-right: 5px;
-    &:last-child {
-        margin-right: 0;
-    }
-}
-@include all-cdi-sprites;
+//     margin-right: 5px;
+//     &:last-child {
+//         margin-right: 0;
+//     }
+// }
+// @include all-cdi-sprites;
