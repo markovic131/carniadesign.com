@@ -3663,15 +3663,14 @@ input[type="button"].btn-block {
 body {
   position: relative;
   padding-top: 70px;
-  border-top: 20px solid #428bca;
 }
 body #languageSelector {
   position: absolute;
   text-align: right;
-  top: -5px;
-  right: 0;
+  top: 5px;
+  right: 5px;
   padding: 3px 10px;
-  background-color: #428bca;
+  border: 1px solid #999999;
   -webkit-border-radius: 4px;
   -moz-border-radius: 4px;
   -ms-border-radius: 4px;
@@ -3680,9 +3679,10 @@ body #languageSelector {
 }
 body #languageSelector a {
   font-size: 14px;
-  color: #fff;
+  color: #999999;
   display: inline-block;
   margin-right: 10px;
+  text-transform: uppercase;
 }
 body #languageSelector a:last-child {
   margin-right: 0;
@@ -3695,24 +3695,37 @@ body section[role=content] section#hero p {
   margin-top: 50px;
   margin-bottom: 70px;
 }
+@media (max-width: 991px) {
+  body section[role=content] section#hero h1 {
+    font-size: 80px;
+  }
+}
 body section[role=content] section#contact address strong {
   font-size: 18px;
-}
-body section[role=content] section#contact #social {
-  padding-top: 15px;
-}
-body section[role=content] section#contact #social a {
-  display: inline-block;
-  margin-right: 5px;
-}
-body section[role=content] section#contact #social a:last-child {
-  margin-right: 0;
 }
 body footer {
   padding-top: 60px;
   padding-bottom: 60px;
   text-transform: uppercase;
   color: #999999;
+}
+body footer section#social {
+  margin-bottom: 60px;
+}
+body footer section#social a {
+  color: #555555;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-right: 40px;
+}
+body footer section#social a:last-child {
+  margin-right: 0;
+}
+@media (max-width: 991px) {
+  body footer section#social a {
+    margin-right: 0;
+    display: block;
+  }
 }
 
 .cdi-sprite, .cdi-email, .cdi-facebook, .cdi-github, .cdi-googleplus, .cdi-linkedin, .cdi-sharethis, .cdi-skype, .cdi-twitter {

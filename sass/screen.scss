@@ -11,23 +11,24 @@ body {
 
     position: relative;
     padding-top: 70px;
-    border-top: 20px solid $brand-primary;
+    //border-top: 20px solid $brand-primary;
 
     #languageSelector {
 
         position: absolute;
         text-align: right;
-        top: -5px;
-        right: 0;
+        top: 5px;
+        right: 5px;
         padding: 3px 10px;
-        background-color: $brand-primary;
+        border: 1px solid $gray-light;
         @include border-radius($border-radius-base);
 
         a {
             font-size: $font-size-small;
-            color: #fff;
+            color: $gray-light;
             display: inline-block;
             margin-right: 10px;
+            text-transform: uppercase;
 
             &:hover {
                 //text-decoration: none;
@@ -49,7 +50,11 @@ body {
                 margin-top: 50px;
                 margin-bottom: 70px;
             }
-
+            @media (max-width: $screen-sm-max) {
+                h1 {
+                    font-size: 80px;
+                }
+            }
         }
         section#services {
 
@@ -64,28 +69,44 @@ body {
                     //font-weight: bold;
                 }
             }
-
-            #social {
-
-                padding-top: 15px;
-
-                a {
-                    display: inline-block;
-                    margin-right: 5px;
-                    &:last-child {
-                        margin-right: 0;
-                    }
-                }
-            }
         }
 
     }
 
+
     footer {
+
         padding-top: 60px;
         padding-bottom: 60px;
         text-transform: uppercase;
         color: $gray-light;
+
+        section#social {
+
+            margin-bottom: 60px;
+
+            a {
+                color: $gray;
+                text-transform: uppercase;
+                font-weight: bold;
+                margin-right: 40px;
+
+                &:last-child {
+                    margin-right: 0;
+                }
+            }
+            @media (max-width: $screen-sm-max) {
+                a {
+                    margin-right: 0;
+                    display: block;
+                }
+            }
+
+        }
+
+        section#copyright {
+
+        }
     }
 }
 

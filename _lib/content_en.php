@@ -11,9 +11,43 @@
     </div>
     <hr>
     <div class="row">
+        <div class="col-md-12">
+            <section id="process">
+                <h1>Our Process</h1>
+                <div class="row">
+                    <div class="col-md-3">
+                        <h5>Discover &amp; Listen</h5>
+                        <p>
+                            We ask and listen toward a thorough understanding of your company, project, audience and objectives.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Plan &amp; Design</h5>
+                        <p>
+                            We construct a framework for your project to take shape within in terms of strategy, production and time.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Develop &amp; Deploy</h5>
+                        <p>
+                            We distill planning into purposeful designs that reflect your objectives and outline a visual aesthetic.
+                        </p>
+                    </div>
+                    <div class="col-md-3">
+                        <h5>Support &amp; Grow</h5>
+                        <p>
+                            We track, analyze and correct your project’s growth through ongoing campaigns and retainers.
+                        </p>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+    <hr>
+    <div class="row">
         <div class="col-md-6">
             <section id="services">
-                <h1>Services <small>what we do</small></h1>
+                <h1>Our Services</h1>
                 <p>
                     <strong>Branding</strong>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, inventore.
@@ -31,14 +65,14 @@
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, inventore.
                 </p>
                 <p>
-                    <strong>Support Services</strong>
+                    <strong>Infrastructure &amp; Support Services</strong>
                     Lorem ipsum dolor sit amet, consectetur adipisicing elit. Accusamus, inventore.
                 </p>
             </section>
         </div>
         <div class="col-md-6">
             <section id="contact">
-                <h1>Contact <small>get in touch</small></h1>
+                <h1>Contact</h1>
                 <p>
                     We happy to answer your questions or prepare you a quotation. Feel free to drop us an email anytime,
                     and we will respond promptly.
@@ -51,17 +85,6 @@
                         <?php echo mungemail('info@carniadesign.com'); ?><br>
                         +389 70 799 701
                     </address>
-                </p>
-                <p id="social">
-                    <a href="#">
-                        <span class="cdi cdi-facebook"></span>
-                    </a>
-                    <a href="#">
-                        <span class="cdi cdi-twitter"></span>
-                    </a>
-                    <a href="#">
-                        <span class="cdi cdi-linkedin"></span>
-                    </a>
                 </p>
             </section>
         </div>

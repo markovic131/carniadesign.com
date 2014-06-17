@@ -1,10 +1,22 @@
     <footer>
         <div class="container">
-            <div class="row">
-                <div class="col-md-12 text-right">
-                    <small>&copy; 2008 - <?php echo date('Y'); ?> Carnia Design. All Right Reserved.</small>
+            <section id="social">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <a href="https://www.facebook.com/carniadesign">Facebook</a>
+                        <a href="https://twitter.com/carniadesign">Twitter</a>
+                        <a href="https://www.linkedin.com/company/carnia-design-studio">Linkedin</a>
+                        <a href="#">Google+</a>
+                    </div>
                 </div>
-            </div>
+            </section>
+            <section id="copyright">
+                <div class="row">
+                    <div class="col-md-12 text-center">
+                        <small>&copy; 2008 - <?php echo date('Y'); ?> Carnia Design. All Right Reserved.</small>
+                    </div>
+                </div>
+            </section>
         </div>
     </footer>
 
