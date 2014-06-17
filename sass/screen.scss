@@ -8,5 +8,22 @@
 @import "bootstrap";
 
 body {
-    padding-top: 50px;
+    padding-top: 60px;
+    border-top: 20px solid $gray;
+}
+section[role=content] {
+
+    #hero {
+        padding-bottom: 30px;
+    }
+    #content {
+
+    }
+
+}
+footer {
+    padding-top: 60px;
+    padding-bottom: 60px;
+    text-transform: uppercase;
+    color: $gray-light;
 }
