@@ -3,13 +3,9 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
-
-# THANKS
-
-    <name>
+    Marko Aleksic -- Developer -- @MarkoAleksic131
 
 # TECHNOLOGY COLOPHON
 
-    HTML5, CSS3
+    PHP, HTML5, CSS3, Twitter Bootstrap 3, Proxima Nova Fonts
     jQuery, Modernizr
