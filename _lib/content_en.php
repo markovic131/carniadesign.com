@@ -26,19 +26,19 @@
             <div class="col-md-3">
                 <h5>Plan &amp; Design</h5>
                 <p>
-                    We construct a framework for your project to take shape within in terms of strategy, production and time.
+                    We carefeuly plan your project and distill it into designs and solutiuons that reflect your goal and purpose.
                 </p>
             </div>
             <div class="col-md-3">
                 <h5>Develop &amp; Deploy</h5>
                 <p>
-                    We distill planning into purposeful designs that reflect your objectives and outline a visual aesthetic.
+                    We follow the defined blueprints, and deliver the product that embraces all values we strive to.
                 </p>
             </div>
             <div class="col-md-3">
                 <h5>Support &amp; Grow</h5>
                 <p>
-                    We track, analyze and correct your project’s growth through ongoing campaigns and retainers.
+                    We track, analyze and correct your project’s growth through continuous support &amp; collaboration.
                 </p>
             </div>
         </div>
