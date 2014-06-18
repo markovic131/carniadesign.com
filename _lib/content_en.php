@@ -26,7 +26,7 @@
             <div class="col-md-3">
                 <h5>Plan &amp; Design</h5>
                 <p>
-                    We carefeuly plan your project and distill it into designs and solutiuons that reflect your goal and purpose.
+                    We carefully plan your project and distill it into designs &amp; solutiuons reflecting your goal and purpose.
                 </p>
             </div>
             <div class="col-md-3">
