@@ -10,13 +10,13 @@
 body {
 
     position: relative;
-    //padding-top: 70px;
+    padding-top: 80px;
     //border-top: 20px solid $brand-primary;
 
     #languageSelector {
         position: absolute;
         text-align: right;
-        top: 5px;
+        top: 85px;
         right: 5px;
         padding: 3px 10px;
         border: 1px solid $gray-light;
@@ -39,24 +39,37 @@ body {
     }
 
     .segment {
-        padding-top: 55px;
-        padding-bottom: 55px;
+
+        section {
+            margin-top: 80px;
+            margin-bottom: 80px;
+        }
+
+        h1 {
+            text-transform: uppercase;
+            margin-top: 0;
+            margin-bottom: 25px;
+        }
     }
-    .blackWrapper {
+
+    .grayWrapper {
         background-color: $gray-dark;
+        border-top: 1px solid $gray-darker;
+        border-bottom: 1px solid $gray-darker;
         color: #fff;
-        @include box-shadow(0 2px 8px #333);
+        //@include box-shadow(0 2px 8px #333);
     }
 
     section[role=content] {
 
         #landingWrapper {
 
-            padding-top: 90px;
-            padding-bottom: 60px;
+            padding-top: 131px;
+            padding-bottom: 131px;
 
             background: image-url('bg.jpg') no-repeat center;
-            @include box-shadow(0 2px 8px #333);
+            border-bottom: 1px solid $gray-darker;
+            //@include box-shadow(0 2px 8px #333);
 
             section#hero {
 
@@ -68,8 +81,9 @@ body {
                     //@include text-shadow(0 2px 8px $gray);
                 }
                 p {
-                    margin-top: 50px;
-                    margin-bottom: 70px;
+                    margin: 0;
+                    // margin-top: 50px;
+                    // margin-bottom: 70px;
                     span {
                         font-weight: 400;
                     }

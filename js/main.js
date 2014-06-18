@@ -40,7 +40,7 @@
             changeHash: false,
             easing: 'swing',
             filter: '',
-            scrollSpeed: 750,
+            scrollSpeed: 250,
             scrollThreshold: 0.5,
             begin: false,
             end: false,
@@ -199,7 +199,8 @@
         },
 
         scrollTo: function(target, callback) {
-            var offset = $(target).offset().top;
+            //Compensate for the top nav of 80px (minus the drop shadow)
+            var offset = $(target).offset().top - 78;
 
             $('html, body').animate({
                 scrollTop: offset
@@ -221,3 +222,7 @@
     };
 
 })( jQuery, window , document );
+
+$(function(){
+    $('#navigation').onePageNav();
+});

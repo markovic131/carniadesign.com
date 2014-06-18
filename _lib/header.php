@@ -27,3 +27,23 @@
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
         <?php //echo '<div id="languageSelector"><a href="/">en</a><a href="/?lang=mk">mk</a></div>'; ?>
+        <nav class="navbar navbar-default navbar-fixed-top" role="navigaion">
+            <div class="container">
+                <div class="navbar-header">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    <a class="navbar-brand" href="/">
+                        <strong>CARNIA</strong>DESIGN
+                    </a>
+                </div>
+                <div class="navbar-collapse collapse">
+                    <ul class="nav navbar-nav navbar-right" id="navigation">
+                        <li><a href="/#our-process">Process</a></li>
+                        <li><a href="/#our-services-and-contact">Services &amp; Contact</a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
