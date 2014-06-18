@@ -10,7 +10,7 @@
 body {
 
     position: relative;
-    padding-top: 70px;
+    //padding-top: 70px;
     //border-top: 20px solid $brand-primary;
 
     #languageSelector {
@@ -38,27 +38,50 @@ body {
         }
     }
 
+    .segment {
+        padding-top: 55px;
+        padding-bottom: 55px;
+    }
+    .blackWrapper {
+        background-color: $gray-dark;
+        color: #fff;
+        @include box-shadow(0 2px 8px #333);
+    }
+
     section[role=content] {
 
-        section#hero {
-            h1 {
-                margin: 0;
-                font-size: 160px;
-                @include text-shadow(0 2px 8px $gray);
-            }
-            p {
-                margin-top: 50px;
-                margin-bottom: 70px;
-                span {
-                    font-weight: 400;
-                }
-            }
-            @media (max-width: $screen-sm-max) {
+        #landingWrapper {
+
+            padding-top: 90px;
+            padding-bottom: 60px;
+
+            background: image-url('bg.jpg') no-repeat center;
+            @include box-shadow(0 2px 8px #333);
+
+            section#hero {
+
+                color: #fff;
+
                 h1 {
-                    font-size: 80px;
+                    margin: 0;
+                    font-size: 160px;
+                    //@include text-shadow(0 2px 8px $gray);
+                }
+                p {
+                    margin-top: 50px;
+                    margin-bottom: 70px;
+                    span {
+                        font-weight: 400;
+                    }
+                }
+                @media (max-width: $screen-sm-max) {
+                    h1 {
+                        font-size: 80px;
+                    }
                 }
             }
         }
+
         section#process {
 
         }
@@ -84,8 +107,8 @@ body {
 
     footer {
 
-        padding-top: 60px;
-        padding-bottom: 60px;
+        padding-top: 90px;
+        padding-bottom: 90px;
         text-transform: uppercase;
         color: $gray-light;
 
@@ -102,8 +125,12 @@ body {
             }
             @media (max-width: $screen-sm-max) {
                 a {
+                    //margin-right: 0;
+                    margin-right: 20px;
+                    display: inline-block;
+                }
+                &:last-child {
                     margin-right: 0;
-                    display: block;
                 }
             }
 

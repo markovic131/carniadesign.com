@@ -1,16 +1,19 @@
-<div class="container">
-    <div class="row">
-        <div class="col-md-12 text-center">
-            <section id="hero">
-                <h1>Carnia Design</h1>
-                <p class="lead">
-                    We create amazing user <span>experiences</span>!<br>
-                    We specialize in increasing <span>business value</span> through use of <span>innovative</span> branding,<br>web design, web development and social media integration.
-                </p>
-            </section>
+<div id="landingWrapper">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <section id="hero">
+                    <h1>Carnia Design</h1>
+                    <p class="lead">
+                        We create amazing user <span>experiences</span>!<br>
+                        We specialize in increasing <span>business value</span> through use of <span>innovative</span> branding,<br>web design, web development and social media integration.
+                    </p>
+                </section>
+            </div>
         </div>
     </div>
-    <hr>
+</div>
+<div class="container segment">
     <div class="row">
         <div class="col-md-12">
             <section id="process">
@@ -44,7 +47,9 @@
             </section>
         </div>
     </div>
-    <hr>
+</div>
+<div class="blackWrapper">
+    <div class="container segment">
     <div class="row">
         <div class="col-md-6">
             <section id="services">
@@ -78,6 +83,7 @@
                     We happy to answer your questions or prepare you a quotation. Feel free to drop us an email anytime,
                     and we will respond promptly.
                 </p>
+                <br>
                 <p>
                     <address>
                         <strong>Carnia Design</strong><br>
@@ -90,5 +96,5 @@
             </section>
         </div>
     </div>
-    <hr>
+</div>
 </div>
