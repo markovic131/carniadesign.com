@@ -7,12 +7,12 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-        <title>Carnia Design :: Amazing user experiences!</title>
+        <title>Carnia Design &middot; We create experiences!</title>
         <meta name="description" content="Carnia Design is digital agency focused on delivering amazing user experiences and creating business value through knowledge, innovation and cutting-edge technology.">
         <meta name="keywords" content="web design, web development, php, laravel, interactive agency, marketing agency, creative agency, digital agency, internet marketing, маркетинг агенција, интернет маркетинг, branding, brands, user experience, social media, e-commerce, e-business">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <meta property="og:title" content="Carnia Design :: Amazing user experiences!">
+        <meta property="og:title" content="Carnia Design &middot; We create experiences!">
         <meta property="og:type" content="website">
         <meta property="og:url" content="http://carniadesign.com/">
         <meta property="og:image" content="http://carniadesign.com/img/logo.jpg">
@@ -42,7 +42,8 @@
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right" id="navigation">
                         <li><a href="/#our-process">Process</a></li>
-                        <li><a href="/#our-services-and-contact">Services &amp; Contact</a></li>
+                        <li><a href="/#our-services">Services</a></li>
+                        <li><a href="/#contact">Contact</a></li>
                     </ul>
                 </div>
             </div>

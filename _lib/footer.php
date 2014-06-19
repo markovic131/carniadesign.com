@@ -17,6 +17,7 @@
                     </div>
                 </div>
             </section>
+            <hr>
             <section id="copyright">
                 <div class="row">
                     <div class="col-md-12 text-center">
@@ -27,11 +28,25 @@
             </section>
         </div>
     </footer>
-
     <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
     <script>window.jQuery || document.write('<script src="/js/vendor/jquery-1.11.0.min.js"><\/script>')</script>
     <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
-    <script src="/js/main.js"></script>
+    <script>
+        $(function() {
+            $('a[href*=#]:not([href=#])').on('click',function() {
+                if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+                    var target = $(this.hash);
+                    target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+                    if (target.length) {
+                        $('html,body').animate({
+                            scrollTop: target.offset().top - 78
+                        }, 300);
+                        return false;
+                    }
+                }
+            });
+        });
+    </script>
     <script>
         (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
         (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),

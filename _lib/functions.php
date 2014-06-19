@@ -8,6 +8,10 @@ if(!in_array($lang,['en','mk'])) {
     $lang = 'en';
 }
 
+//////////////////////////////////////////////////////////////
+//----------------------- FUNCTIONS ----------------------- //
+//////////////////////////////////////////////////////////////
+
 function to_rand_ascii($chr){
     switch (mt_rand(1, 3)) {
     case 1:
@@ -39,24 +43,3 @@ function mungemail($str_email, $str_display = null, $bln_link = true){
     }
     return '<a href="mailto:'.$str_display.'">'.$str_display.'</a>';
 }
-
-// echo '<nav class="navbar navbar-default navbar-fixed-top" role="navigaion">
-//     <div class="container">
-//         <div class="navbar-header">
-//             <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-//                 <span class="icon-bar"></span>
-//                 <span class="icon-bar"></span>
-//                 <span class="icon-bar"></span>
-//             </button>
-//             <!-- <a class="navbar-brand" href="/">
-//                 CarniaDesign
-//             </a> -->
-//         </div>
-//         <div class="navbar-collapse collapse">
-//             <ul class="nav navbar-nav navbar-right" id="navigation">
-//                 <li><a href="/#features">Services</a></li>
-//                 <li><a href="/#features">Contact</a></li>
-//             </ul>
-//         </div>
-//     </div>
-// </nav>';
