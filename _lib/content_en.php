@@ -102,10 +102,10 @@
             </section>
         </div>
         <div class="col-md-6">
-            <section id="quotation">
+            <!-- <section id="quotation">
                 <h1>&nbsp;</h1>
                 <button class="btn btn-primary btn-lg btn-block">Request Quotation</button>
-            </section>
+            </section> -->
         </div>
     </div>
     <hr>
