@@ -38,6 +38,17 @@ body {
         }
     }
 
+    .iconHolder {
+        margin-top: 80px;
+        margin-bottom: 80px;
+        svg {
+            display: block;
+            margin: 0 auto;
+            max-height: 334px;
+            max-width: 334px;
+        }
+    }
+
     .segment {
 
         section {
