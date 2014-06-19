@@ -8,6 +8,20 @@ if(!in_array($lang,['en','mk'])) {
     $lang = 'en';
 }
 
+//Navigation labels in English and Macedonian
+$navLabels = [
+    'en' => [
+        'process'  => 'Process',
+        'services' => 'Services',
+        'contact'  => 'Contact',
+    ],
+    'mk' => [
+        'process'  => 'Процес',
+        'services' => 'Услуги',
+        'contact'  => 'Контакт',
+    ],
+];
+
 //////////////////////////////////////////////////////////////
 //----------------------- FUNCTIONS ----------------------- //
 //////////////////////////////////////////////////////////////

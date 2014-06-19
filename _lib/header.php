@@ -26,7 +26,7 @@
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        <?php //echo '<div id="languageSelector"><a href="/">en</a><a href="/?lang=mk">mk</a></div>'; ?>
+        <?php echo '<div id="languageSelector"><a href="/">en</a><a href="/?lang=mk">mk</a></div>'; ?>
         <nav class="navbar navbar-default navbar-fixed-top" role="navigaion">
             <div class="container">
                 <div class="navbar-header">
@@ -41,9 +41,9 @@
                 </div>
                 <div class="navbar-collapse collapse">
                     <ul class="nav navbar-nav navbar-right" id="navigation">
-                        <li><a href="/#our-process">Process</a></li>
-                        <li><a href="/#our-services">Services</a></li>
-                        <li><a href="/#contact">Contact</a></li>
+                        <li><a href="/#our-process"><?=$navLabels[$lang]['process']?></a></li>
+                        <li><a href="/#our-services"><?=$navLabels[$lang]['services']?></a></li>
+                        <li><a href="/#contact"><?=$navLabels[$lang]['contact']?></a></li>
                     </ul>
                 </div>
             </div>
