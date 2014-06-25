@@ -118,6 +118,17 @@ body {
 
         }
 
+        section#clients {
+            img {
+                @include opacity(0.8);
+                margin: 0 auto;
+                display: block;
+                &:hover {
+                    @include opacity(1);
+                }
+            }
+        }
+
         section#contact {
 
             address {
@@ -127,6 +138,13 @@ body {
                 a {
                     //font-weight: bold;
                 }
+            }
+        }
+
+        section#quotation {
+            p {
+                margin-top: 10px;
+                text-align: right;
             }
         }
 

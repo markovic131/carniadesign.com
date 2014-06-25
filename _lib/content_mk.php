@@ -87,7 +87,7 @@
             <section id="contact">
                 <h1>Контакт</h1>
                 <p>
-                    Со задоволство ќе одговориме на сите Ваши прашања или барања за понуда. Слободно пишете ни email и ние ќе Ви одговориме веднаш.
+                    Со задоволство ќе одговориме на сите Ваши прашања или барања за понуда. Слободно пишете ни email во секое време.
                 </p>
                 <p>
                     <address>
@@ -101,10 +101,17 @@
             </section>
         </div>
         <div class="col-md-6">
-            <!-- <section id="quotation">
-                <h1>&nbsp;</h1>
-                <button class="btn btn-primary btn-lg btn-block">Request Quotation</button>
-            </section> -->
+            <?php
+            // echo '<section id="quotation">
+            //         <h1>&nbsp;</h1>
+            //         <button class="btn btn-primary btn-lg btn-block">Побарај Понуда</button>
+            //         <p>
+            //             <small class="text-muted">
+            //                 Lorem ipsum dolor sit amet, consectetur adipisicing elit. Officiis, at.
+            //             </small>
+            //         </p>
+            //     </section>';
+            ?>
         </div>
     </div>
     <hr>

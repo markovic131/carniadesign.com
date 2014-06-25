@@ -81,7 +81,35 @@
         </div>
     </div>
 </div>
-<div class="container segment" id="contact">
+<?php
+// echo '<div class="container segment" id="our-clients">
+//     <div class="row">
+//         <div class="col-md-12">
+//             <section id="clients">
+//                 <h1>Clients</h1>
+//                 <div class="row">
+//                     <div class="col-md-4">
+//                         <a href="http://fortis.mk" target="_blank">
+//                             <img src="img/clients/fortis.jpg" alt="Fortis">
+//                         </a>
+//                     </div>
+//                     <div class="col-md-4">
+//                         <a href="http://kumanovskikori.mk" target="_blank">
+//                             <img src="img/clients/kumanovski_kori.jpg" alt="Kumanovski Kori">
+//                         </a>
+//                     </div>
+//                     <div class="col-md-4">
+//                         <a href="http://gradskapekara.mk" target="_blank">
+//                             <img src="img/clients/gradska_pekara.jpg" alt="Kumanovska Gradska Pekara">
+//                         </a>
+//                     </div>
+//                 </div>
+//             </section>
+//         </div>
+//     </div>
+// </div>';
+ ?>
+<div class="container segment">
     <div class="row">
         <div class="col-md-6">
             <section id="contact">
@@ -108,5 +136,4 @@
             </section> -->
         </div>
     </div>
-    <hr>
 </div>
