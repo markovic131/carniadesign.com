@@ -21,7 +21,7 @@
             <section id="copyright">
                 <div class="row">
                     <div class="col-md-12 text-center">
-                        <small>&copy; 2008 - <?php echo date('Y'); ?> Carnia Design. All Rights Reserved.</small><br>
+                        <small>&copy; 2008 - <?php echo date('Y'); ?> Carnia Design Co.. All Rights Reserved.</small><br>
                         <small><?php echo time() ?></small>
                     </div>
                 </div>

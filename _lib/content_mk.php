@@ -98,6 +98,11 @@
                         +389 70 799 701
                     </address>
                 </p>
+                <p>
+                    <h5>Сакате да станете дел од Carnia Design?</h5>
+                    Испратете ни го Вашето CV, LinkedIn профил и друг метеријал што мислите дека е релевантен на <?=mungemail('info@carniadesign.com')?>,
+                    и ние ќе Ве контактираме.
+                </p>
             </section>
         </div>
         <div class="col-md-6">

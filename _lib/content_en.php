@@ -120,12 +120,17 @@
                 </p>
                 <p>
                     <address>
-                        <strong>Carnia Design</strong><br>
+                        <strong>Carnia Design Co.</strong><br>
                         Kozjacka 44<br>
                         1300 Kumanovo, <abbr title="Macedonia">MK</abbr><br>
                         <?=mungemail('info@carniadesign.com')?><br>
                         +389 70 799 701
                     </address>
+                </p>
+                <p>
+                    <h5>Wanna be part of Carnia Design?</h5>
+                    Send us your CV, LinkedIn profile and any material that you think is relevant at <?=mungemail('info@carniadesign.com')?>,
+                    and we will get in touch.
                 </p>
             </section>
         </div>
