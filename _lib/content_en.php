@@ -124,6 +124,7 @@
                         Kozjacka 44<br>
                         1300 Kumanovo, <abbr title="Macedonia">MK</abbr><br>
                         <?=mungemail('info@carniadesign.com')?><br>
+                        +389 31 453 905<br>
                         +389 70 799 701
                     </address>
                 </p>
