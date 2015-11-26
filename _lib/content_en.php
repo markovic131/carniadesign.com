@@ -17,25 +17,25 @@
         <h1>Our Process</h1>
         <div class="row">
             <div class="col-md-3">
-                <h5>Discover &amp; Listen</h5>
+                <strong>Discover &amp; Listen</strong>
                 <p>
                     We ask and listen toward a thorough understanding of your company, project, audience and objectives.
                 </p>
             </div>
             <div class="col-md-3">
-                <h5>Plan &amp; Design</h5>
+                <strong>Plan &amp; Design</strong>
                 <p>
                     We carefully plan your project and distill it into designs &amp; solutions reflecting your goal and purpose.
                 </p>
             </div>
             <div class="col-md-3">
-                <h5>Develop &amp; Deploy</h5>
+                <strong>Develop &amp; Deploy</strong>
                 <p>
                     We follow the defined blueprints, and deliver the product that embraces all values we strive to.
                 </p>
             </div>
             <div class="col-md-3">
-                <h5>Support &amp; Grow</h5>
+                <strong>Support &amp; Grow</strong>
                 <p>
                     We track, analyze and correct your project’s growth through continuous support &amp; collaboration.
                 </p>
@@ -129,7 +129,7 @@
                     </address>
                 </p>
                 <p>
-                    <h5>Wanna be part of Carnia Design?</h5>
+                    <strong>Wanna be part of Carnia Design?</strong>
                     Send us your CV, LinkedIn profile and any material that you think is relevant at <?=mungemail('info@carniadesign.com')?>,
                     and we will get in touch.
                 </p>
